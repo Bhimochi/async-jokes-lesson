@@ -32,6 +32,8 @@ async function fetchJoke() {
     }
 }
 
+// Load and display jokes from localStorage
+// Concats the jokes parameter also
 function loadJokes(jokes) {
     jokes = JSON.parse(localStorage.jokes || '[]').concat(jokes)
     localStorage.jokes = JSON.stringify(jokes)
