@@ -1,0 +1,25 @@
+{
+  "name": "callbacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhimochi/async-jokes-lesson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhimochi/async-jokes-lesson/issues"
+  },
+  "homepage": "https://github.com/Bhimochi/async-jokes-lesson#readme",
+  "dependencies": {
+    "roll": "^1.3.1"
+  }
+}
